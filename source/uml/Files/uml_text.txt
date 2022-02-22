@@ -1,0 +1,40 @@
+ @startuml
+left to right direction
+actor "Azubis" as azubis
+actor "Leitung" as leitung
+actor "Kunde" as kunde
+actor "Dozent" as dozent
+rectangle Schulungszentrum {
+  usecase "Azubiheft" as UC1
+  usecase "Raum aufräumen" as UC2
+  usecase "Unterricht" as UC3
+  usecase "Lernen" as UC4
+  usecase "Vertäge" as UC5
+  usecase "Planung Ausbildung" as UC6
+  usecase "Vertrag Lehre" as UC7
+  usecase "Vertrag Ausbildung" as UC8
+  usecase "Bezahlung" as UC9
+  usecase "Vorbereitung Unterricht" as UC10
+  usecase "Materialien" as UC11
+  usecase "Präsentation" as UC12
+  usecase "stellt Fragen" as UC13
+}
+azubis --> UC1
+azubis --> UC2
+azubis --> UC3
+azubis --> UC4
+azubis --> UC5
+leitung --> UC5
+leitung --> UC6
+UC5 <.. UC7
+UC5 <.. UC8
+UC3 ..> UC9
+UC10 ..> UC11
+UC10 ..> UC12
+dozent --> UC10
+dozent --> UC3
+dozent --> UC5
+kunde --> UC13
+kunde --> UC4
+kunde --> UC3
+@enduml
