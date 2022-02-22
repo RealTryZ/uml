@@ -24,3 +24,4 @@ Wenn Ihnen ein Modell genauso wenig sagt wie das Original, ist es ein schlechtes
    :caption: Inhalt:
 
    anwendungsfalldiagramme
+   anwendungsfall-text
