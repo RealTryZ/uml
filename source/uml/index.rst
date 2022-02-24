@@ -25,3 +25,5 @@ Wenn Ihnen ein Modell genauso wenig sagt wie das Original, ist es ein schlechtes
 
    anwendungsfalldiagramme
    anwendungsfall-text
+   klassendiagramm
+   

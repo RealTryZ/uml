@@ -4,7 +4,7 @@ Anwendungsfall im Textformat
 .. index:: Anwendungsfall; Text
 
 Beispiel 1
----------
+----------
 
 .. image:: ./Images/Übung.png
     :width: 300px
@@ -13,9 +13,10 @@ Beispiel 1
 
 .. glossary::
 
-    **main flow:**
+    **main flow**
 
-        Der Kundensachbearbeiter...
+        Der Kundensachbearbeiter bearbeitet die Angaben zur Person und die Adresse des Teilnehmers.
+
 
 Beispiel 2
 ----------
@@ -23,7 +24,7 @@ Beispiel 2
 .. image:: ./Images/Übung2.png
     :width: 300px
 
-Für den Geschäftsvorfall ...
+Für den Geschäftsvorfall einer Hotelbuchung sieht eine schriftliche Dokumentation etwa wie folgt aus:
 
 - Anwendungsfall: Hotelbuchung
 - Bedingung Zimmer in Zeitraum und Kategorie verfügbar
@@ -31,3 +32,8 @@ Für den Geschäftsvorfall ...
 - Ablauf
 
   - Verfügbarkeit prüfen
+  - Gast registrieren
+  - Schlüssel aushändigen
+  - Gepäck zum Zimmer transportieren
+  - Rechnung erstellen
+  - Zahlung abwickeln
