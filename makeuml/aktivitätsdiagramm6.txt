@@ -1,0 +1,11 @@
+@startuml
+start
+switch()
+case ([Bedingung wenn wahr])
+:Aktivit&#228;t wenn wahr;
+
+case ([Bedingung wenn falsch])
+:Aktivit&#228;t wenn falsch;
+
+endswitch
+@enduml

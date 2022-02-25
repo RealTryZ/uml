@@ -1,0 +1,4 @@
+@startuml
+start
+:erste Aktivit&#228;t;
+@enduml

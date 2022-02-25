@@ -1,0 +1,8 @@
+@startuml
+(*) -down-> "New" 
+"New" -down->[Accept] "Assigned / Reopened"
+"Assigned / Reopened" -up->[Reassign] "New"
+"Assigned / Reopened" -right->[Resolve] "Closed"
+"Closed" -left->[Reopen] "Assigned / Reopened"
+"New" -right->[Resolve] "Closed"
+@enduml

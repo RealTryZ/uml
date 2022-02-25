@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="269px" preserveAspectRatio="none" style="width:181px;height:269px;background:#FFFFFF;" version="1.1" viewBox="0 0 181 269" width="181px" zoomAndPan="magnify"><defs><filter height="300%" id="fxpiik8ucatn5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="87" cy="16" fill="#000000" filter="url(#fxpiik8ucatn5)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#000000" filter="url(#fxpiik8ucatn5)" height="8" style="stroke:none;stroke-width:1.0;" width="80" x="47" y="66"/><rect fill="#FEFECE" filter="url(#fxpiik8ucatn5)" height="35.0938" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="70" x="7" y="114"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="17" y="136.457">Aktivität 1</text><rect fill="#000000" filter="url(#fxpiik8ucatn5)" height="8" style="stroke:none;stroke-width:1.0;" width="80" x="47" y="189"/><rect fill="#FEFECE" filter="url(#fxpiik8ucatn5)" height="35.0938" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="70" x="97" y="114"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="107" y="136.457">Aktivität 2</text><ellipse cx="87" cy="247" fill="none" filter="url(#fxpiik8ucatn5)" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;"/><ellipse cx="87.5" cy="247.5" fill="#000000" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[6396badacac00578348ddb3cf20ba689]
+link start to B1--><path d="M87,26.06 C87,35.8 87,51.15 87,60.62 " fill="none" id="start-to-B1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="87,65.87,91,56.87,87,60.87,83,56.87,87,65.87" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0729f9204919558b503300785f3db7c8]
+link B1 to Aktivit&#228;t 1--><path d="M84.58,74.2 C79.55,80.85 67.61,96.64 57.64,109.82 " fill="none" id="B1-to-Aktivit&amp;#228;t 1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="54.62,113.81,63.2391,109.0445,57.636,109.822,56.8584,104.2189,54.62,113.81" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6d3c150ea16752729f9938cc148b6a33]
+link Aktivit&#228;t 1 to B2--><path d="M54.54,149.07 C63.31,160.68 74.62,175.64 81.32,184.48 " fill="none" id="Aktivit&amp;#228;t 1-to-B2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="84.51,188.71,82.2716,179.1189,81.494,184.722,75.8909,183.9445,84.51,188.71" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[35be03e78047b4efb3632760fa9fa575]
+link B1 to Aktivit&#228;t 2--><path d="M89.42,74.2 C94.45,80.85 106.39,96.64 116.36,109.82 " fill="none" id="B1-to-Aktivit&amp;#228;t 2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="119.38,113.81,117.1416,104.2189,116.364,109.822,110.7609,109.0445,119.38,113.81" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1e0e1a29f32562e60da15401f4dd63b1]
+link Aktivit&#228;t 2 to B2--><path d="M119.46,149.07 C110.69,160.68 99.38,175.64 92.68,184.48 " fill="none" id="Aktivit&amp;#228;t 2-to-B2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="89.49,188.71,98.1091,183.9445,92.506,184.722,91.7284,179.1189,89.49,188.71" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[67dd31f82dae465fe6f080fdaa978b88]
+link B2 to end--><path d="M87,197.1 C87,203.77 87,219.87 87,231.78 " fill="none" id="B2-to-end" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="87,236.91,91,227.91,87,231.91,83,227.91,87,236.91" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0bf1a670d6480e14d200750d544f1c5e]
+@startuml
+(*) - -> ===B1===
+- -> "Aktivit&#228;t 1"
+- -> ===B2===
+===B1=== - -> "Aktivit&#228;t 2"
+- -> ===B2===
+- -> (*)
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 19:19:58 CET 2022)
+(LGPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

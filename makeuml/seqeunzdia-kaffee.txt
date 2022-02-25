@@ -1,0 +1,14 @@
+@startuml
+actor Ich
+activate Ich
+Ich -> Kaffeefilter : nehmen
+Ich -> Kaffeepulver : nehmen
+Ich -> Wasser : nehmen
+Wasser -> Kaffeemaschine : einfüllen
+Kaffeefilter -> Kaffeemaschine : einlegen
+Kaffeepulver -> Kaffeemaschine : einfuellen
+Ich -> Kaffeemaschine : einschalten
+Kaffeemaschine -> Kaffee :kocht
+Kaffeemaschine --> Ich : Signal
+Kaffee -> Ich : trinken
+@enduml

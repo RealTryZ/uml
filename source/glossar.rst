@@ -3,7 +3,7 @@ Glossar
 
 .. glossary::
     Interface
-        Interface enthalten keine Attribute, sondern stellen nur Methoden und Parameter da die von adneren Klassen implementiert werden sollen.
+        Interface enthalten keine Attribute, sondern stellen nur Methoden und Parameter da die von anderen Klassen implementiert werden sollen.
     
     Klasse
         Die Klasse repräsentiert einen Bauplan, sie liefert die Definition dafür was ein Objekt innerhalb dieses Programmierstils ausmacht.
@@ -12,16 +12,16 @@ Glossar
         Ein Objekt ist eine Abstraktion eines realen Objekts. Eigenschaften werden durch Variablen und Verhalten durch Methoden festgelegt.
     
     Stereotyp
-        Stereotype geben mögliche Verwendungszusammenhänge einer Klaase, einer Beziehung oder eines Paketes an.
+        Stereotype geben mögliche Verwendungszusammenhänge einer Klasse, einer Beziehung oder eines Paketes an.
     
     Entität
         Entität bezeichnet ein einzelnes, identifizierbares und separates Objekt.
     
     Boundary
-        ....
+        Objekte, die eine Schnitstelle mit dem aktuellen Benutzer bilden.
     
     Control
-        ....
+        Objekt, die zwischen entities und boundaries vermiteln.
     
     Aggregation
         Aggregation ist ein Sonderfall der Assoziation und drückt ein starkes semantisches Verhältnis von zwei an sich selbständigen Objekten aus, von denen eines Teil des anderen ist.

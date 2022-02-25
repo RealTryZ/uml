@@ -1,0 +1,15 @@
+@startuml
+skinparam activity{
+BackgroundColor Peru
+BackgroundColor<< Begin >> Olive
+}
+"Aktion 1" -right->[ ] "Objekt" << Begin >> 
+-right->[ ] "Aktion 2" << End >>
+
+skinparam activity{
+BackgroundColor Peru
+BackgroundColor<< Begin >> Olive
+}
+"Cocktail mixen" -right->[ ] "Cocktail" << Begin >> 
+-right->[ ] "Cocktail trinken" << End >>
+@enduml

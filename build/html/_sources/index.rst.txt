@@ -7,12 +7,14 @@ Mein UML
 ========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Inhalt:
 
    einleitung/index
    uml/index
    glossar
+   aufgaben
+   dateiendungen
 
 
 Index und andere Verzeichnisse

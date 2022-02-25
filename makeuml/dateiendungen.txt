@@ -1,0 +1,15 @@
+@startmindmap
++ Dateiendungen
+++ Textdateiendungen
++++ ODT
++++ DOCX
++++ PDF
++++ TXT
+-- Bilddateiendungen
+--- PNG
+--- GIF
+--- WebP
+--- JPEG
+--- TIFF
+--- SVG
+@endmindmap

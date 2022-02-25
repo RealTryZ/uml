@@ -1,0 +1,12 @@
+@startuml
+[-> Krise: Empfang der Krisenmeldung
+activate Krise
+Krise -> Krise: Einberufung von Krisensitzungen
+activate Krise
+Krise ->Krise : Risiken abw&#228;gen
+Krise ->Krise : Krisenplanentwicklung
+deactivate Krise
+[<- Krise: Krisenbew&#228;ltigung
+deactivate Krise
+@enduml
+

@@ -1,0 +1,28 @@
+@startuml
+
+actor Russland as ru
+actor Ukraine as ukr
+actor Nato as nato
+
+activate ru
+activate ukr
+ru -> ukr : Besetzung Gebiete
+ukr -> ru : Einfrieren von Konten
+activate nato
+nato -> ukr : Versichert Solidarität
+deactivate ukr
+nato -> ru : Verhängung Sanktionen
+ru -> nato : Drohungen
+deactivate nato
+activate ukr
+ru -> ukr : Raketenbeschuss
+ukr -> ru : Verurteilung
+activate nato
+ukr -> nato : Bitte um Hilfe
+nato -> ukr : Sichert Unterstüzung zu
+deactivate ukr
+nato -> ru : Weitere Sanktionen
+deactivate ru
+deactivate nato
+
+@enduml

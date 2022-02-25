@@ -1,7 +1,12 @@
 Dateiendungen
 =============
 
+Auf dieser Seite sehen Sie eine kleine Übersicht zu existierenden Dateiformaten.
+
+.. image:: ./Images/dateiendungen.svg
+
 .. glossary::
+    **Bilddateiendungen**
     PNG (Portable Network Graphics)
         Verlustfreie Kompression \n
         Pixel-basiert
@@ -36,3 +41,25 @@ Dateiendungen
         Vektor-basiert
         Unterliegt XML Syntax
         Nicht Pixel sondern Pfade werden abgespeichert
+    
+    **Textdateiendungen**
+    ODT (OpenDocument Text)
+        Teil des OpenDocument Format, basiert auf XML
+        Dateien können Texte, Bilder, Grafiken, Tabellen, Makros und Formatierungen enthalten
+        Von LibreOffice sowie OpenOffice verwendet
+
+    DOCX
+        Von Microsoft entwickelt, basiert auf xml
+        Dateien können Texte, Bilder, Grafiken, Tabellen und Formatierungen enthalten
+        Von Word verwendet
+
+    PDF (Portable Document Format)
+        Von Adobe entwickelt
+        Ergebnis ist überall gleich
+        Adobe Acrobat Reader kann diese Dateien öffnen
+
+    TXT
+        Text wird plain, also ohne Formatierung gespeichert
+        Kann von sehr vielen Sachen geöffnet werden
+
+

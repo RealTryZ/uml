@@ -22,8 +22,13 @@ Wenn Ihnen ein Modell genauso wenig sagt wie das Original, ist es ein schlechtes
 .. toctree::
    :maxdepth: 1
    :caption: Inhalt:
+   :glob:
 
-   anwendungsfalldiagramme
+   *
+
+.. anwendungsfalldiagramme
    anwendungsfall-text
    klassendiagramm
+   aktivitaetsdiagramm
+   sequenzdiagramm
    

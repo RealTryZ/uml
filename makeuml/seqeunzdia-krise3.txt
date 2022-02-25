@@ -1,0 +1,17 @@
+@startuml
+participant Warnsystem as W
+participant Kuestenwache as K
+participant Regierung as R
+participant Buerger as B
+[-> W  : Megabeben
+W -> K : Meldung
+K -> R : Meldung
+activate R
+R -> R : Entscheidung was getan wird
+R -> B : Meldung zur Evakuierung
+deactivate R
+activate B 
+B -> B : Evakuierung
+[-> B : Riesenwelle
+deactivate B
+@enduml

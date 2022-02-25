@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="192px" preserveAspectRatio="none" style="width:407px;height:192px;background:#FFFFFF;" version="1.1" viewBox="0 0 407 192" width="407px" zoomAndPan="magnify"><defs><filter height="300%" id="f42cfoaumq3ah" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="203" cy="20" fill="#000000" filter="url(#f42cfoaumq3ah)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><polygon fill="#FEFECE" filter="url(#f42cfoaumq3ah)" points="203,50,203,50,215,62,203,74,203,74,191,62,203,50" style="stroke:#A80036;stroke-width:1.5;"/><rect fill="#FEFECE" filter="url(#f42cfoaumq3ah)" height="35.0938" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="123" x="11" y="111.6719"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="103" x="21" y="134.1289">Aktivität wenn wahr</text><rect fill="#FEFECE" filter="url(#f42cfoaumq3ah)" height="35.0938" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="129" x="209.5" y="111.6719"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="109" x="219.5" y="134.1289">Aktivität wenn falsch</text><polygon fill="#FEFECE" filter="url(#f42cfoaumq3ah)" points="203,156.7656,203,156.7656,215,168.7656,203,180.7656,203,180.7656,191,168.7656,203,156.7656" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="191" x2="72.5" y1="62" y2="62"/><line style="stroke:#A80036;stroke-width:1.5;" x1="72.5" x2="72.5" y1="62" y2="111.6719"/><polygon fill="#A80036" points="68.5,101.6719,72.5,111.6719,76.5,101.6719,72.5,105.6719" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="72.5" y="91.3369">[Bedingung wenn wahr]</text><line style="stroke:#A80036;stroke-width:1.5;" x1="215" x2="274" y1="62" y2="62"/><line style="stroke:#A80036;stroke-width:1.5;" x1="274" x2="274" y1="62" y2="111.6719"/><polygon fill="#A80036" points="270,101.6719,274,111.6719,278,101.6719,274,105.6719" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="274" y="91.3369">[Bedingung wenn falsch]</text><line style="stroke:#A80036;stroke-width:1.5;" x1="72.5" x2="72.5" y1="146.7656" y2="168.7656"/><line style="stroke:#A80036;stroke-width:1.5;" x1="72.5" x2="191" y1="168.7656" y2="168.7656"/><polygon fill="#A80036" points="181,164.7656,191,168.7656,181,172.7656,185,168.7656" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="274" x2="274" y1="146.7656" y2="168.7656"/><line style="stroke:#A80036;stroke-width:1.5;" x1="274" x2="215" y1="168.7656" y2="168.7656"/><polygon fill="#A80036" points="225,164.7656,215,168.7656,225,172.7656,221,168.7656" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="203" x2="203" y1="30" y2="50"/><polygon fill="#A80036" points="199,40,203,50,207,40,203,44" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6c6935324265f4decfb64ee6c041bd23]
+@startuml
+start
+switch()
+case ([Bedingung wenn wahr])
+:Aktivit&#228;t wenn wahr;
+
+case ([Bedingung wenn falsch])
+:Aktivit&#228;t wenn falsch;
+
+endswitch
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 19:19:58 CET 2022)
+(LGPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

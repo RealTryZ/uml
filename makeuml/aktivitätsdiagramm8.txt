@@ -1,0 +1,9 @@
+@startuml
+:Getr&#228;nk bestellen;
+:|
+-[#black,dotted]->
+:Flasche &#214;ffnen;
+:Flasche austrinken;
+:|
+:Cocktail trinken;
+@enduml

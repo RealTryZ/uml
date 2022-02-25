@@ -1,0 +1,4 @@
+@startuml
+:Aktivit&#228;t;
+end
+@enduml

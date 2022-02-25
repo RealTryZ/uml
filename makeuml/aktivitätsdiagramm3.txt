@@ -1,0 +1,6 @@
+@startuml
+:Getr&#228;nk bestellen;
+note left: Getr&#228;nk
+:Cocktail trinken;
+note right: Cocktail
+@enduml

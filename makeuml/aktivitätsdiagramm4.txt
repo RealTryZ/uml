@@ -1,0 +1,3 @@
+@startuml
+"Aktivit&#228;t" --> (*)
+@enduml

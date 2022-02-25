@@ -1,0 +1,15 @@
+@startuml
+|Wasser|
+start
+:kochen;
+|#AntiqueWhite|Spagetti|
+:einf&#252;llen;
+:   kochen\n10 Minuten;
+:    warten\n [bis aldente];
+|Wasser|
+:abgie&#223;en;
+|Spagetti|
+:anrichten;
+:servieren;
+stop
+@enduml

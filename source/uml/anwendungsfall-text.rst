@@ -24,16 +24,20 @@ Beispiel 2
 .. image:: ./Images/Übung2.png
     :width: 300px
 
-Für den Geschäftsvorfall einer Hotelbuchung sieht eine schriftliche Dokumentation etwa wie folgt aus:
+Für die Planung und Durchführung eines Unterrichts im ZIT sieht der Ablauf wie folgt aus:
 
-- Anwendungsfall: Hotelbuchung
-- Bedingung Zimmer in Zeitraum und Kategorie verfügbar
-- Alternative: andere Kategorie anbieten
-- Ablauf
+- Anwendungsfall: Unterricht
 
-  - Verfügbarkeit prüfen
-  - Gast registrieren
-  - Schlüssel aushändigen
-  - Gepäck zum Zimmer transportieren
-  - Rechnung erstellen
-  - Zahlung abwickeln
+- Bedingung Raum und Dozent verfügbar, sowie Teilnehmer
+
+- Alternative: andere Schulung anbieten
+
+- Ablauf:
+
+  - Verfügbarkeit prüfen(Raum, Dozent)
+  - Schulung planen 
+  - Material/Raum vorbereiten
+  - Schulung durchführen
+  - Folgende Fragen beantworten
+  - Bewertung der Teilnehmer
+  - Zertifizierung
